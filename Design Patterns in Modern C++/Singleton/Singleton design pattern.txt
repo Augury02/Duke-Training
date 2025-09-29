@@ -1,0 +1,22 @@
+Singleton design pattern
+	- Most hated design pattern
+	- Used in some components that makes sense to only have one of
+		- Database repository
+		- Object factory
+	- Constructor call is expensive
+		- Only done once
+		- Want to provide everyone the same instance
+	- Want to prevent anyone creating additional copies
+	- Need to take care of lazy instantiation and thread safety
+
+A Singleton is a component instantiated only once
+
+Making a 'safe' singleton is easy
+	- Hide or delete type's constructor, copy constructor and copy assignment
+		- I made constructor private; and deleted copy constructor/assignment
+	- Create a static method that returns a reference to a static member
+		- see static TimeLog
+Types with hard dependencies on singletons are difficult to test
+	- Cannot decouple the singleton and supply a fake object
+Instead of directly using a singleton, consider instead an abstraction (interface
+Consider defining singleton lifetime in DI container

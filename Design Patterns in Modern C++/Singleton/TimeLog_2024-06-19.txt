@@ -1,0 +1,6 @@
+13:56:20 - I watched the section discussing Singleton Design Principle
+13:57:04 - I thought of how I could apply the principle in code
+13:57:27 - I researched on how to utilize time-logging, as it will be used alongside the design principle
+13:57:46 - I created a time-log that creates a .txt file
+14:00:16 - haha
+14:30:12 - I am adding new content on a different debugging/run instance of the code; it should still add content to the same file since it is still the same date
