@@ -1,0 +1,11 @@
+Adapters
+	We cannot modify our gadgets to support every possible interface
+	Thurs we use a special device to give us the interface we require from the interface we have
+	It is a construct which adapts an existing interface X to conform to required interface Y
+
+
+Implementing an adapter is easy: Determine API you have and API you need
+Create a component which aggregates the adaptee
+Intermediate representations can pile up: use caching and other optimizations
+
+
