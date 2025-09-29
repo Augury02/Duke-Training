@@ -1,0 +1,15 @@
+    Book book6{ "The Dunwich Horror", flyweightFactory.getFlyweight(Author::HPLovecraft, Genre::Horror) };
+    Book book7{ "The Thing in the Doorstep", flyweightFactory.getFlyweight(Author::HPLovecraft, Genre::Horror) };
+    Book book8{ "Color out of space", flyweightFactory.getFlyweight(Author::HPLovecraft, Genre::Horror) };
+    Book book9{ "Winters of Summers", flyweightFactory.getFlyweight(Author::MichaelFaudet, Genre::Poetry) };
+    Book book10{ "No", flyweightFactory.getFlyweight(Author::OceanVuong, Genre::Poetry) };
+    Book book11{ "On Earth We're Briefly...", flyweightFactory.getFlyweight(Author::OceanVuong, Genre::Poetry) };
+    Book book12{ "Memories", flyweightFactory.getFlyweight(Author::LangLeav, Genre::Poetry) };
+    Book book13{ "Dirty Pretty Things", flyweightFactory.getFlyweight(Author::MichaelFaudet, Genre::Poetry) };
+    Book book14{ "Love and Misadventure", flyweightFactory.getFlyweight(Author::LangLeav, Genre::Poetry) };
+    Book book15{ "Lullabies", flyweightFactory.getFlyweight(Author::LangLeav, Genre::Poetry) };
+    Book book16{ "Cult of Two", flyweightFactory.getFlyweight(Author::MichaelFaudet, Genre::Poetry) };
+    Book book17{ "Time is a Mother", flyweightFactory.getFlyweight(Author::OceanVuong, Genre::Poetry) };
+    Book book18{ "Metro 2033", flyweightFactory.getFlyweight(Author::DmitryGlukhovsky, Genre::Fantasy) };
+    Book book19{ "Time of Contempt", flyweightFactory.getFlyweight(Author::AndrzejSapkowski, Genre::Fantasy) };
+    Book book20{ "Lord of the Rings", flyweightFactory.getFlyweight(Author::JRRTolkien, Genre::Fantasy) };
